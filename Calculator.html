@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel = "stylesheet" href = "Calculator.css">
+</head>
+<body>
+
+    <div style = "text-align : center; margin-top : 50px">
+    <h1>MINI &nbsp;&nbsp; CALCULATOR</h1>
+    </div>
+
+    <div id = "full">
+    <header>
+    <div id = "input"></div>
+    </header>
+
+    <div class = "btn">
+    <button onclick = "print('1')">1</button>
+    <button onclick = "print('2')">2</button>
+    <button onclick = "print('3')">3</button>
+    <button onclick = "print('/')" class = "operator">/</button>
+    </div>
+    <div class = "btn">
+    <button onclick = "print('4')">4</button>
+    <button onclick = "print('5')">5</button>
+    <button onclick = "print('6')">6</button>
+    <button onclick = "print('+')" class = "operator">+</button>
+    </div>
+    <div class = "btn">
+    <button onclick = "print('7')">7</button> 
+    <button onclick = "print('8')">8</button>
+    <button onclick = "print('9')">9</button>
+    <button onclick = "print('-')" class = "operator">-</button>
+    </div>
+    <div class = "btn">
+    <button onclick = "print('0')" id = "zero">0</button>
+    <button onclick = "Cal()" id = "isEqualTo" class = "eqbtn">=</button>
+    <button onclick = "print('x')">x</button>
+    <button onclick = "reset()" class = "operator">AC</button>
+    </div>
+    </div>
+    </div>
+    
+</body>
+</html>
+
+<script src="./Calculator.js"></script>
