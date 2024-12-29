@@ -10,11 +10,11 @@ function Cal(){
 
     let s = Input.innerText;
 
-    s = s.replace("x", "*");
+    s = s.replaceAll("x", "*");
 
     console.log(s);
 
-    const ans = eval(s);
+    const ans = eval(s).toFixed(4);
     Input.innerText = ans;
 
 }
